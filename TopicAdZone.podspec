@@ -33,7 +33,7 @@ Pod::Spec.new do |spec|
   spec.subspec 'Mercury' do |mer|
     mer.dependency 'TopicAdZone/Core'
     mer.dependency 'TopicAdZone/Adspot'
-    mer.dependency 'MercurySDK'
+    mer.dependency 'TopicAd'
     mer.source_files = 'TopicAdZone/Adapter/mercury/**/*.{h,m}'
     mer.frameworks = 'StoreKit', 'AVFoundation'
   end
